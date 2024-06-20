@@ -100,6 +100,9 @@ addNode.addEventListener("click", () => {
         console.log(guests);
     });
 
+    nameNode.value="";
+    emailNode.value="";
+
 });
 
 const updateNode = document.querySelector(".update");
