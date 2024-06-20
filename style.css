@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #121212;
+    border-radius: 10px;
+    border: solid 1px #f2f2f2;
+    padding: 30px;
+    gap: 5px;
+
+}
+
+.form label {
+    font: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #f2f2f2;
+    margin-top: 5px;
+}
+
+.form input {
+    padding: 8px;
+    border-radius: 10px;
+    border: solid;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.form button {
+    padding: 8px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid;
+    margin-top: 20px;
+}
+
+.form button:hover {
+    border: solid 1px blanchedalmond;
+    background-color: #121212;
+    color: #f2f2f2;
+}
+
+.guests-details-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.guest {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #121212;
+}
+
+.guest p {
+    margin-bottom: 5px;
+}
+
+.guest button {
+    padding: 8px;
+    border: solid 0.5px grey;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.guest button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    border: #f2f2f2;
+}
+
+.guest .edit {
+    background-color: green;
+    color: #f2f2f2;
+    margin-right: 20px;
+}
+
+.guest .delete {
+    background-color: red;
+    color: #f2f2f2;
+}
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.inner-modal {
+    width: 50%;
+    height: 50vh;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: solid;
+}
+
+.inner-modal label {
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.inner-modal input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border-radius: solid 1px grey;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.inner-modal button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    color: antiquewhite;
+    border-radius: solid 1px grey;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.update {
+    background: green;
+    cursor: pointer;
+}
+
+.cancel {
+    background: red;
+    cursor: pointer;
+}
+
+.update:hover {
+    opacity: 0.9;
+}
+
+.cancel:hover {
+    opacity: 0.9;
+}
